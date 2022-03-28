@@ -1,0 +1,8 @@
+export const ADDING_TODO = "ADDING_TODO";
+export const ADD_TODO_SUCCESS = "ADD_TODO_SUCCESS";
+export const ADD_TODO_FAIL = "ADD_TODO_FAIL";
+export const TODO_RESET = "TODO_RESET";
+
+export const DELETING_TODO = "DELETING_TODO";
+export const DELETE_TODO_SUCCESS = "DELETE_TODO_SUCCESS";
+export const DELETE_TODO_FAIL = "DELETE_TODO_FAIL";

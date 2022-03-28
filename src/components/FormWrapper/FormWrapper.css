@@ -1,0 +1,19 @@
+.form-container {
+  display: grid;
+  place-items: center;
+  height: calc(100vh - 180px);
+}
+
+.form-card {
+  width: 450px;
+  padding: 20px 0;
+  box-shadow: var(--blue-shadow);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .form-wrapper {
+    width: 100%;
+  }
+}
