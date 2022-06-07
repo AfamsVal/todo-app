@@ -3,7 +3,7 @@ import { useState, SyntheticEvent, useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
 import { login } from "../../redux/auth/authActions";
 import { CLEAR_LOGIN_ERROR } from "../../redux/auth/authTypes";
-import "./Login.css";
+import "./Login.scss";
 import Button from "../../components/button/Button";
 
 const Login = () => {
